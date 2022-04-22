@@ -1,0 +1,10 @@
+- route:
+    from:
+      uri: kamelet:jms-apache-artemis-source
+      steps:
+        - log:
+            message: SEND PAYMENT $[body]
+      parameters:
+        destinationType: queue
+        destinationName: sendpayment
+        brokerURL: tcp://localhost:61616

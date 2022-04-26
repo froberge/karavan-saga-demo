@@ -8,6 +8,7 @@ In this sample Demo I will be implementing a Saga Pattern using [Apache Camel Ka
 * AMQ Local ( 2 options )
     * [Apache ActiveMQ](https://activemq.apache.org/components/artemis/download/)
     * [Red Hat AMQ Broker](https://developers.redhat.com/products/amq/download)
+* [JBang](https://www.jbang.dev/download/) to run locally
 
 
 ## Demo
